@@ -197,7 +197,8 @@
                         border: 1px solid var(--pink) !important;
                         transition: .5s;
                     }
-                    .header-nav-wrap .navbar .logo-text{
+
+                    .header-nav-wrap .navbar .logo-text {
                         font-family: var(--f-i);
                         font-style: normal;
                         font-weight: 800;
@@ -205,7 +206,7 @@
                         line-height: 30px;
                         text-align: center;
                         letter-spacing: 0.36px;
-                        color:var(--pink);
+                        color: var(--pink);
                         text-decoration: none;
                     }
                 </style>
@@ -301,7 +302,8 @@
                 border: 2px solid var(--gold);
                 padding: 15px 35px;
             }
-            .btn-user:hover{
+
+            .btn-user:hover {
                 background: transparent;
                 color: var(--gold);
                 transition: 0.5s
@@ -327,7 +329,169 @@
 
 
 
-    <main></main>
+    <main>
+        <style>
+            .service {
+                background: var(--gold);
+                padding-top: 150px;
+            }
+
+            .alert {
+                background: #F4F4F4;
+                width: 207px;
+                height: 27px;
+                align-items: center;
+                border-radius: 0;
+            }
+
+            .alert p {
+                font-family: var(--f-i);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: #1C2752;
+                margin-left: 10px;
+            }
+
+            .service .service-text h2 {
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 45px;
+                line-height: 58px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                color: #1C2752;
+                margin-top: 20px;
+            }
+
+            .service .service-text p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                color: #1C2752;
+                margin-top: 12px;
+            }
+
+            .service .service-text ul li {
+                width: 236px;
+                display: flex;
+                align-items: center;
+                background: transparent;
+                border: 1px solid #1C2752;
+                padding: 10px 30px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.36px;
+                color: #222222;
+            }
+
+            .service .service-text ul li p {
+                margin-left: 10px;
+            }
+
+            .service .service-text ul li.active,
+            .service .service-text ul li:hover {
+                background: var(--white);
+                border: 1px solid var(--white);
+                transition: .5s;
+                cursor: pointer;
+            }
+        </style>
+        <section class="service">
+            <div class="container">
+                <div class="service-text text-center col-8 m-auto">
+                    <div class="d-flex alert m-auto align-items-center">
+                        <img src="./img/logo-li.png" alt="">
+                        <p>What We Offer</p>
+                    </div>
+                    <h2>Professional Main Services</h2>
+                    <p>We have extensive experience of domestic and business electrical installations and no job is too
+                        small. Our customers value our professionalism, work ethic and our competitive prices.</p>
+                    <div class="col-11 m-auto">
+                        <ul class="d-flex justify-content-between align-items-center mt-5 row">
+                            <li class="active col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                            <li class="col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                            <li class="col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <style>
+                    .service-wrap {
+                        background: var(--white);
+                        padding: 70px 50px;
+                        box-shadow: -1px 6px 18px rgba(0, 0, 0, 0.09);
+                        transform: translateY(100px);
+                    }
+
+                    .service-wrap .col-lg-6 h2 {
+                        font-family: 'Mulish';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 45px;
+                        line-height: 58px;
+                        letter-spacing: 0.36px;
+                        color: #1C2752;
+                        margin-top: 20px;
+                    }
+
+                    .service-wrap .col-lg-6 p {
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        letter-spacing: 0.36px;
+                        color: #7E7E7E;
+                    }
+                </style>
+                <div class="service-wrap row">
+                    <div class="col-lg-6 text-left">
+                        <div class="d-flex alert ">
+                            <img src="./img/logo-li.png" alt="">
+                            <p class="mb-0">What We Offer</p>
+                        </div>
+                        <h2>Commercial</h2>
+                        <p class="mt-1"> Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your
+                            needs – from moving a light switch to complete house rewires. <br> <br> In addition to
+                            providing fully qualified, competent electricians in and around London, the company also
+                            runs an electrical wholesale shop.</p>
+                        <a class="btn-user " href="#">Read More</a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid " src="./img/box-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    </main>
     <footer></footer>
 
 
