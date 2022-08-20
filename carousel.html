@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Mulish&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        :root {
+            --f-m: "Mulish", sans-serif;
+            --f-i: "Inter", sans-serif;
+            --f-w: 400;
+            --gold: #ffb342;
+            --white: white;
+            --black: black;
+            --pink: #1c2752;
+            --t-color: #7e7e7e;
+            --opacity-gold: #ffc368;
+            --icon-bg: #2c3765;
+            --f-size: 45px;
+        }
+
+        header .header-top-wrap {
+            background: #f2f2f2;
+            padding: 20px 0px;
+        }
+
+        header .header-top-wrap .header-top-box .header-top-text p {
+            font-family: var(--f-i);
+            font-style: normal;
+            font-weight: var(--f-w);
+            font-size: 17px;
+            line-height: 27px;
+            letter-spacing: 0.36px;
+            color: var(--pink);
+        }
+
+        header .header-top-wrap .header-top-box .header-top-icon {
+            width: 120px;
+            justify-content: space-between;
+        }
+
+        header .header-top-wrap .header-top-box .header-top-icon a {
+            color: var(--pink);
+            font-size: 18px;
+        }
+    </style>
+    <header>
+        <div class="header-top-wrap">
+            <div class="container">
+                <div class="header-top-box d-flex justify-content-between align-items-center">
+                    <div class="header-top-text">
+                        <p class="mb-0">Opening Hours: 06:00 to 20:00</p>
+                    </div>
+                    <div class="header-top-icon d-flex">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .header-nav {
+                padding-top: 40px;
+            }
+
+            .header-nav .connection-wrap {
+                /* width: 600px; */
+                justify-content: space-between;
+            }
+
+            .header-nav .connection-wrap .connection-box i {
+                background: var(--gold);
+                border-radius: 50%;
+                width: 68px;
+                height: 68px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: var(--pink);
+                font-size: 30px;
+                margin-right: 15px;
+            }
+
+            .header-nav .connection-wrap .connection-box h4 {
+                font-family: var(--f-m);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 20px;
+                line-height: 26px;
+                letter-spacing: 0.36px;
+                color: var(--pink);
+            }
+
+            .header-nav .connection-wrap .connection-box a {
+                font-family: var(--f-i);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 17px;
+                line-height: 27px;
+                letter-spacing: 0.36px;
+                color: var(--t-color);
+                text-decoration: none;
+            }
+        </style>
+        <div class="container">
+            <div class="header-nav-wrap">
+                <div class="header-nav d-flex justify-content-between align-items-center row">
+                    <div class="col-lg-6 col-sm-6">
+                        <a href="#" class="logo"><img src="./img/header-logo.png" alt="" /></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="connection-wrap d-flex row">
+                            <div class="connection-box d-flex align-items-center col-lg-6 col-sm-12">
+                                <div class="connetcion-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="connection-text">
+                                    <h4>Mail Us</h4>
+                                    <a href="Info@bluecollar.com">Info@bluecollar.com</a>
+                                </div>
+                            </div>
+                            <div
+                                class="connection-box d-flex align-items-center justify-content-lg-end justify-content-sm-start col-lg-6 col-sm-12 mt-sm-2">
+                                <div class="connetcion-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="connection-text">
+                                    <h4>Call Us</h4>
+                                    <a href="tel:+01569896654">+01 569 896 654</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <style>
+                    .header-nav-wrap .navbar {
+                        background: var(--gold);
+                        padding: 10px;
+                        transform: translateY(50px);
+                    }
+
+                    .header-nav-wrap .navbar .collapse ul li a.active,
+                    .header-nav-wrap .navbar .collapse ul li a:hover {
+                        color: var(--white);
+                        transition: 0.5s;
+                    }
+
+                    .header-nav-wrap .navbar .collapse ul li a {
+                        font-family: var(--f-i);
+                        font-style: normal;
+                        font-weight: var(--f-w);
+                        font-size: 19px;
+                        line-height: 30px;
+                        letter-spacing: 0.36px;
+                        color: var(--pink);
+                        padding: 0px 20px;
+                    }
+
+                    .header-nav-wrap .navbar .collapse a.btn {
+                        font-family: var(--f-i);
+                        font-style: normal;
+                        font-weight: var(--f-w);
+                        font-size: 20px;
+                        line-height: 30px;
+                        text-align: center;
+                        letter-spacing: 0.36px;
+                        color: #f4f4f4;
+                        background: var(--pink);
+                        border-radius: 0;
+                        padding: 15px 35px;
+                        border: 1px solid transparent !important;
+                    }
+
+                    .header-nav-wrap .navbar .collapse a.btn:hover {
+                        background: transparent;
+                        border: 1px solid var(--pink) !important;
+                        transition: 0.5s;
+                    }
+
+                    .header-nav-wrap .navbar .logo-text {
+                        font-family: var(--f-i);
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 30px;
+                        line-height: 30px;
+                        text-align: center;
+                        letter-spacing: 0.36px;
+                        color: var(--pink);
+                        text-decoration: none;
+                    }
+                </style>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a href="#" class="logo-text d-lg-none d-block">BlueCollar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                            <a class="btn border-0" href="#">Have Any Questions?</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <style>
+            .header-bottom {
+                width: 100%;
+                height: 100vh;
+                background: url(./img/header-bg.png) no-repeat center center / cover;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+            }
+
+            .header-bottom .header-bottom-text .header-bottom-text-icon {
+                font-family: var(--f-i);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 18px;
+                line-height: 27px;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: var(--white);
+                background: rgba(255, 255, 255, 0.2);
+                max-width: 662px;
+                padding: 0px 20px;
+            }
+
+            .header-bottom .header-bottom-text .header-bottom-text-icon i {
+                color: var(--gold);
+                margin-right: 10px;
+                font-size: 25px;
+            }
+
+            .header-bottom .header-bottom-text h1 {
+                font-family: var(--f-m);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 60px;
+                line-height: 78px;
+                letter-spacing: 1.2px;
+                text-transform: capitalize;
+                color: var(--white);
+            }
+
+            .btn-user {
+                display: inline-block;
+                text-decoration: none;
+                font-family: var(--f-i);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.36px;
+                color: var(--pink);
+                background: var(--gold);
+                border: 2px solid var(--gold);
+                padding: 15px 35px;
+            }
+
+            .btn-user:hover {
+                background: transparent;
+                color: var(--gold);
+                transition: 0.5s;
+            }
+        </style>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-text">
+                    <div class="header-bottom-text-icon d-flex align-items-center">
+                        <i class="fa-solid fa-gear"></i>
+                        <p class="mb-0">
+                            Improve our customers’ lives by providing effective solutions.
+                        </p>
+                    </div>
+                    <h1 class="mt-3">
+                        A recognized leader in <br />
+                        services industry
+                    </h1>
+                    <a href="#" class="btn-user mt-5">View Services</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <style>
+            .service {
+                background: var(--gold);
+                padding-top: 150px;
+            }
+
+            .alert {
+                background: #f4f4f4;
+                width: 207px;
+                height: 27px;
+                align-items: center;
+                border-radius: 0;
+            }
+
+            .alert p {
+                font-family: var(--f-i);
+                font-style: normal;
+                font-weight: var(--f-w);
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: #1c2752;
+                margin-left: 10px;
+            }
+
+            .service .service-text h2 {
+                font-family: "Mulish";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 45px;
+                line-height: 58px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                color: #1c2752;
+                margin-top: 20px;
+            }
+
+            .service .service-text p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 27px;
+                text-align: center;
+                letter-spacing: 0.36px;
+                color: #1c2752;
+                margin-top: 12px;
+            }
+
+            .service .service-text ul li {
+                width: 236px;
+                display: flex;
+                align-items: center;
+                background: transparent;
+                border: 1px solid #1c2752;
+                padding: 10px 30px;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.36px;
+                color: #222222;
+            }
+
+            .service .service-text ul li p {
+                margin-left: 10px;
+            }
+
+            .service .service-text ul li.active,
+            .service .service-text ul li:hover {
+                background: var(--white);
+                border: 1px solid var(--white);
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        </style>
+        <section class="service">
+            <div class="container">
+                <div class="service-text text-center col-8 m-auto">
+                    <div class="d-flex alert m-auto align-items-center">
+                        <img src="./img/logo-li.png" alt="" />
+                        <p>What We Offer</p>
+                    </div>
+                    <h2>Professional Main Services</h2>
+                    <p>
+                        We have extensive experience of domestic and business electrical
+                        installations and no job is too small. Our customers value our
+                        professionalism, work ethic and our competitive prices.
+                    </p>
+                    <div class="col-11 m-auto">
+                        <ul class="d-flex justify-content-between align-items-center mt-5 row">
+                            <li class="active col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                            <li class="col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                            <li class="col-lg-4">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Commercial</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <style>
+                    .service-wrap {
+                        background: var(--white);
+                        padding: 70px 50px;
+                        box-shadow: -1px 6px 18px rgba(0, 0, 0, 0.09);
+                        transform: translateY(100px);
+                    }
+
+                    .service-wrap .col-lg-6 h2 {
+                        font-family: "Mulish";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 45px;
+                        line-height: 58px;
+                        letter-spacing: 0.36px;
+                        color: #1c2752;
+                        margin-top: 20px;
+                    }
+
+                    .service-wrap .col-lg-6 p {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        letter-spacing: 0.36px;
+                        color: #7e7e7e;
+                    }
+
+                    .service1 h4 {
+                        margin-top: 10px;
+                        display: -webkit-inline-flex;
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        text-align: center;
+                        color: #383a7b;
+                    }
+
+                    .service2 h1 {
+                        font-family: "Mulish";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 45px;
+                        line-height: 58px;
+                        text-align: center;
+                        letter-spacing: 0.36px;
+                        color: #1c2752;
+                    }
+
+                    .service2 p {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        text-align: center;
+                        letter-spacing: 0.36px;
+                        color: #7e7e7e;
+                    }
+
+                    .main-text {
+                        padding: 35px 50px;
+                        background: #1c2752;
+                    }
+
+                    .main-text img {
+                        margin-bottom: 20px;
+                    }
+
+                    .main-text h3 {
+                        font-family: "Mulish";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 38px;
+                        letter-spacing: 0.36px;
+                        text-transform: capitalize;
+                        color: #ffb342;
+                    }
+
+                    .main-text p {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 27px;
+                        letter-spacing: 0.36px;
+                        color: #d2d2d2;
+                        font-family: "Inter";
+                    }
+
+                    .main-text a {
+                        text-decoration: none;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 27px;
+                        letter-spacing: 0.36px;
+                        color: #ffffff;
+                    }
+
+                    .main-electrikal {
+                        margin-top: 120px;
+                    }
+
+                    .service1 {
+                        margin: auto;
+                        background: #f3eaea;
+                        width: 200px;
+                        height: 40px;
+                    }
+
+                    .service1 img {
+                        margin-bottom: 10px;
+                    }
+
+                    .main-electrikal {
+                        background: #ffffff;
+                    }
+
+                    .service2 {
+                        margin-top: 22px;
+                    }
+
+                    .service3 {
+                        margin-top: 47px;
+                    }
+                </style>
+                <div class="service-wrap row">
+                    <div class="col-lg-6 text-left">
+                        <div class="d-flex alert">
+                            <img src="./img/logo-li.png" alt="" />
+                            <p class="mb-0">What We Offer</p>
+                        </div>
+                        <h2>Commercial</h2>
+                        <p class="mt-1">
+                            Electrical & Maintenance Services Ltd offers a full range of
+                            electrical services to suit your needs – from moving a light
+                            switch to complete house rewires. <br />
+                            <br />
+                            In addition to providing fully qualified, competent electricians
+                            in and around London, the company also runs an electrical
+                            wholesale shop.
+                        </p>
+                        <a class="btn-user" href="#">Read More</a>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid" src="./img/box-2.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main-electrikal">
+            <div class="container">
+                <div class="row">
+                    <div class="service1">
+                        <img src="./img/IMAGE (1).png" alt="" />
+                        <h4>Area Of Service</h4>
+                    </div>
+                    <div class="service2">
+                        <h1>Our Services</h1>
+                        <p>
+                            We offers a comprehensive range of electrical services for
+                            domestic and commercial <br />
+                            properties at a reasonable price.
+                        </p>
+                    </div>
+                    <div class="service3">
+                        <div class="row">
+                            <div
+                                class="main d-lg-flex col-lg-12 justify-content-between col-sm-6 d-sm-inline-block mb-4 justify-content-lg-between">
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                            <div
+                                class="main d-lg-flex col-lg-12 justify-content-between col-sm-6 d-sm-inline-block mb-4 justify-content-lg-between">
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                                <div class="main-text">
+                                    <img src="./img/IMAGE (2).png" alt="" />
+                                    <h3>Air condition service</h3>
+                                    <p>
+                                        Services are able to service your <br />
+                                        entire electrical infrastructure <br />
+                                        from Thermal Imaging of your air <br />
+                                        condition from switch boards.
+                                    </p>
+                                    <a href="#">View More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="swipper__wrap text-center">
+                <div class="service1">
+                    <img src="./img/IMAGE (1).png" alt="" />
+                    <h4>Area Of Service</h4>
+                </div>
+                <h1 class="swipper-h1">Our Recent Projects</h1>
+                <div class="container-fluid">
+                    <style>
+                        .swipper__wrap {
+                            background: var(--pink);
+                            padding: 150px 0px;
+                        }
+
+                        .swipper__wrap a {
+                            text-decoration: none !important;
+                            display: inline-block;
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .swipper__wrap .swipper-h1 {
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 45px;
+                            line-height: 58px;
+                            text-align: center;
+                            letter-spacing: 0.36px;
+                            color: #FFFFFF;
+                            padding-top: 22px;
+                        }
+
+                        .swiper {
+                            width: 100%;
+                            height: 100%;
+                        }
+
+                        .swiper-slide {
+                            text-align: center;
+                            font-size: 18px;
+                            background: #fff;
+                            padding: 20px
+                        }
+
+                        .swiper-slide:hover {
+                            transform: translateY(-10px);
+                            transition: .5s;
+                        }
+
+                        .swiper-slide img {
+                            width: 100%;
+                        }
+
+                        .swipper__wrap .swiper-slide .swipper-text {
+                            padding: 10px;
+                        }
+
+                        .swipper__wrap .swiper-slide .swipper-text h1 {
+                            font-family: 'Mulish';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 25px;
+                            line-height: 38px;
+                            text-align: center;
+                            letter-spacing: 0.36px;
+                            text-transform: capitalize;
+                            color: #1C2752;
+
+                        }
+
+                        .swipper__wrap .swiper-slide .swipper-text p {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 17px;
+                            line-height: 27px;
+                            text-align: center;
+                            letter-spacing: 0.36px;
+                            color: #7E7E7E;
+                        }
+                    </style>
+                    </head>
+
+                    <body>
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper mt-5">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <img src="./img/carousel-1.png" alt="">
+                                        <div class="swipper-text">
+                                            <h1>Industry machine issue</h1>
+                                            <p>Industry</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </section>
+
+            <style>
+                .form__wrap {
+                    padding: 150px 0px;
+                }
+
+                .form__wrap .form__h1 {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 45px;
+                    line-height: 58px;
+                    letter-spacing: 0.36px;
+                    color: #1C2752;
+                    margin-top: 20px;
+                }
+
+                .form__wrap .card {
+                    padding: 40px;
+                }
+
+                .form__wrap .card .user-box-text {
+                    margin-left: 10px;
+                }
+
+                .form__wrap .card .user-box-text h4 {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 31px;
+                    letter-spacing: 0.36px;
+                    color: #1C2752;
+                }
+
+                .form__wrap .card .user-box-text p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: 0.36px;
+                    color: #7E7E7E;
+                }
+
+                .form__wrap .card .user-box i {
+                    font-size: 30px;
+                    background: var(--gold);
+                    border-radius: 50%;
+                    padding: 15px;
+                }
+
+                .form__wrap .card p {
+                    font-family: 'Inter';
+                    font-style: italic;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: 0.36px;
+                    color: #7E7E7E;
+                }
+
+                .form__wrap .card p span {
+                    color: var(--black);
+                }
+
+                .form__wrap .card .user-carousel i {
+                    font-size: 15px;
+                    background: #F4F4F4;
+                    border-radius: 50%;
+                    padding: 20px;
+                    color: #1C2752;
+                    cursor: grab;
+                }
+
+                .form__wrap .card .user-carousel i:nth-child(2) {
+                    margin-left: 20px;
+                }
+
+                .form__wrap .user__bottom {
+                    padding: 40px;
+                    background: var(--gold);
+                    margin-top: 40px;
+                }
+
+                .form__wrap .user__bottom h2 {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 25px;
+                    line-height: 32px;
+                    letter-spacing: 0.36px;
+                    color: #1C2752;
+                    margin-top: 20px;
+                }
+
+                .form__wrap .user__bottom p {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 27px;
+                    letter-spacing: 0.36px;
+                    color: #1C2752;
+                }
+
+                .form__wrap .user__bottom .d-flex i {
+                    font-size: 20px;
+                    padding: 20px;
+                    background: var(--white);
+                    border-radius: 50%;
+                    color: var(--gold);
+                }
+
+                .form__wrap .user__bottom .d-flex h1 {
+                    font-family: 'Mulish';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 45px;
+                    letter-spacing: 0.36px;
+                    color: #FFFFFF;
+                    margin-left: 20px;
+                }
+
+                .form__wrap form {
+                    background: #F4F4F4;
+                    padding: 55px 40px;
+                }
+
+                .form__wrap form input,
+                .form__wrap form textarea {
+                    width: 100%;
+                    padding: 20px 40px;
+                    background: #FFFFFF;
+                    border: 1px solid #CCCCCC;
+                }
+
+                .form__wrap form button {
+                    width: 100%;
+                    padding: 20px 0px;
+                    background: #FFB342;
+                    border: 2px solid #FFB342;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 27px;
+                    letter-spacing: 0.36px;
+                    color: #1C2752;
+                }
+
+                .form__wrap form button:hover {
+                    background: transparent;
+                    transition: .5s;
+                    color: var(--gold);
+                }
+            </style>
+
+            <section class="form__wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="service1 m-0">
+                                <img src="./img/logo-li.png" alt="" />
+                                <h4>Area Of Service</h4>
+                            </div>
+                            <h1 class="form__h1">Customers Says</h1>
+                            <div class="card">
+                                <div class="user-wrap d-flex justify-content-between align-items-center">
+                                    <div class="user-box d-flex align-items-center">
+                                        <img src="./img/user.png" alt="">
+                                        <div class="user-box-text">
+                                            <h4>Nancy luther</h4>
+                                            <p>NewYork</p>
+                                        </div>
+                                    </div>
+                                    <div class="user-box">
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </div>
+                                </div>
+                                <hr>
+                                <p>We have had several good experiences with <span>Blue Collar</span> team. Most
+                                    recently, they replaced our 20-year-old HVAC system with a new, <span>modern, and
+                                        more efficient</span> system & it worked fine. </p>
+                                <div class="user-carousel">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="user__bottom">
+                                <div class="service1 m-0">
+                                    <img src="./img/logo-li.png" alt="" />
+                                    <h4>Area Of Service</h4>
+                                </div>
+                                <h2>99.9% Customer Satisfaction Based</h2>
+                                <p>If you have any questions or need help contact with our team, or call</p>
+                                <div class="d-flex align-items-center">
+                                    <i class="fa-solid fa-phone"></i>
+                                    <h1>(003) 123 456 7890</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="service1  m-0">
+                                <img src="./img/logo-li.png" alt="" />
+                                <h4>Area Of Service</h4>
+                            </div>
+                            <h1 class="form__h1">Customers Says</h1>
+
+                            <form action="" method="post">
+                                <input type="text" name="name" placeholder="Your name" required>
+                                <input class="mt-4" type="email" name="email" placeholder="Your email" required>
+                                <input class="mt-4" type="number" name="tel" placeholder="Phone Number" required>
+                                <input class="mt-4" type="text" name="date" placeholder="Date" required>
+                                <textarea class="mt-4" type="text" name="" rows="5" placeholder="Service Description"
+                                    required></textarea>
+                                <button class="mt-4" type="submit">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var m768 = window.matchMedia('(max-width:768px)');
+        var m992 = window.matchMedia('(max-width:992px)');
+        var m568 = window.matchMedia('(max-width:568px)');
+        var count = 4;
+        if (m992.matches > m768.matches) {
+            count = 3;
+        } else if (m768.matches > m568.matches) {
+            count = 2;
+        } else if (m568.matches) {
+            count = 1;
+        } else {
+            count = 4;
+        }
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: count,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
